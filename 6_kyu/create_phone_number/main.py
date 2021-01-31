@@ -6,6 +6,14 @@ def create_phone_number(n):
     return (ph)
 
 
+'''
+This is clever'
+
+def create_phone_number(n):
+    return "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
+    
+'''
+
 
 
 print("Basic tests")
